@@ -44,3 +44,13 @@ vim.keymap.set("n", "<leader>pv, vim.cmd.Ex)
 > We can press `=ap` to format the line
 
 - **Color Schema** Go to the [link](https://github.com/rose-pine/neovim) to install Rose Pine color
+
+- **Tree Sitter** Go to the [link](https://github.com/nvim-treesitter/nvim-treesitter) to install tree-sitter for basic highlighting
+
+> We can press `shift+v` to enter in the visual mode. Then just move the cursor up or down to select the lines, once selected you can delete it using `d` in normal mode
+>
+> To copy a line in vim first move your cursor to the line you want to copy then press `yy` (yank a line). Now, move your cursor to the line just above where you want to copy and press `p`
+
+- **harpoon** Go to the [link](https://github.com/ThePrimeagen/harpoon) for easy navigation.
+
+- **undotree** Go to the [link](https://github.com/mbbill/undotree) for visualizes the undo history and makes it easy to browse and switch between different undo branches
