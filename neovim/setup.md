@@ -54,3 +54,5 @@ vim.keymap.set("n", "<leader>pv, vim.cmd.Ex)
 - **harpoon** Go to the [link](https://github.com/ThePrimeagen/harpoon) for easy navigation.
 
 - **undotree** Go to the [link](https://github.com/mbbill/undotree) for visualizes the undo history and makes it easy to browse and switch between different undo branches
+
+- **tpope/vim-fugitive** Go to the [link](https://github.com/tpope/vim-fugitive) for the git support
