@@ -56,3 +56,5 @@ vim.keymap.set("n", "<leader>pv, vim.cmd.Ex)
 - **undotree** Go to the [link](https://github.com/mbbill/undotree) for visualizes the undo history and makes it easy to browse and switch between different undo branches
 
 - **tpope/vim-fugitive** Go to the [link](https://github.com/tpope/vim-fugitive) for the git support
+
+- **VonHeikemen/lsp-zero.nvim** Go to the [link](https://github.com/VonHeikemen/lsp-zero.nvim) for lsp configuration.
