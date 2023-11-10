@@ -7,3 +7,7 @@
 - :two_hearts: AppFlowy - Minimalistic note taking app on desktop.
 
 [https://appflowy.io](https://appflowy.io)
+
+- 💕 inshellisense - inshellisense provides IDE style autocomplete for shells.
+
+[https://github.com/microsoft/inshellisense](https://github.com/microsoft/inshellisense)
