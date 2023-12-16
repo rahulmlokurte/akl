@@ -60,3 +60,17 @@ We will use SDKMAN to handle multiple java versions.
    - ```keytool -import -alias zScaler -keystore  "/home/rahul/.sdkman/candidates/java/17.0.9-amzn" -file pemfile.cer```
     
 
+## Install Maven
+
+- ```sdk list maven```
+- ```sdk install maven 3.9.6``` 
+- ```mvn --version```
+
+## Install Gradle
+
+- ```sdk list gradle```
+- ```sdk install gradle 7.6.1```
+- ```sdk install gradle 8.5```
+- ```sdk use gradle 7.6.1```
+- ```sdk default gradle 8.5```
+- ```gradle --version```
