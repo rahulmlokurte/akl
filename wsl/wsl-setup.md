@@ -74,3 +74,19 @@ We will use SDKMAN to handle multiple java versions.
 - ```sdk use gradle 7.6.1```
 - ```sdk default gradle 8.5```
 - ```gradle --version```
+
+## Install Python
+
+To install and manage different versions of python, we will use the library pyenv https://github.com/pyenv/pyenv
+
+- ```sudo apt install -y gcc make build-essential libssl-dev libffi-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev liblzma-dev```
+
+- ```curl https://pyenv.run | bash```
+- ```echo 'export PATH="/home/rahul/.pyenv/bin:$PATH"' >> ~/.bashrc```
+- ```eval "$(pyenv init -)"```
+- ```pyenv install -l | grep 3.10```
+- ```pyenv install 3.10.1```
+- ```pyenv install -l | grep 3.12```
+- ```pyenv install 3.12.1```
+- ```pyenv versions```
+- ```pyenv global 3.12.1```
