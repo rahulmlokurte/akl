@@ -90,3 +90,16 @@ To install and manage different versions of python, we will use the library pyen
 - ```pyenv install 3.12.1```
 - ```pyenv versions```
 - ```pyenv global 3.12.1```
+
+## Install Node
+
+nvm is a version manager for node.js, designed to be installed per-user, and invoked per-shell. https://github.com/nvm-sh/nvm
+
+- ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash```
+- ```command -v nvm```
+- ```nvm ls```
+- ```nvm ls-remote```
+- ```nvm install v18.19.0```
+- ```nvm install v20.10.0```
+- ```nvm alias default v18.19.0```
+- ```nvm use v20.10.0``` - current shell
