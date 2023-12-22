@@ -103,3 +103,11 @@ nvm is a version manager for node.js, designed to be installed per-user, and inv
 - ```nvm install v20.10.0```
 - ```nvm alias default v18.19.0```
 - ```nvm use v20.10.0``` - current shell
+
+## Install Go
+
+Download the go binary from the location https://go.dev/dl/
+
+- ```rm -rf /usr/local/go && tar -C /usr/local -xzf go1.21.5.linux-amd64.tar.gz```
+- ```echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc```
+- ```go version```
