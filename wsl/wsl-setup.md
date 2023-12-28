@@ -111,3 +111,9 @@ Download the go binary from the location https://go.dev/dl/
 - ```rm -rf /usr/local/go && tar -C /usr/local -xzf go1.21.5.linux-amd64.tar.gz```
 - ```echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc```
 - ```go version```
+
+## Install kubectl
+
+- ```curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"```
+- ```sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl```
+- ```kubectl version --client --output=yaml```
