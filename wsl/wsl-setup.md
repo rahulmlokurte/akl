@@ -11,6 +11,7 @@
         wsl.exe --install -d Ubuntu-22.04
 
 - Once the distribution is installed, setup with the username and password.
+- Follow the steps given to setup DNS https://datawookie.dev/blog/2018/10/dns-on-ubuntu/
 
 - Run the below commands to setup few required libraries.
 
