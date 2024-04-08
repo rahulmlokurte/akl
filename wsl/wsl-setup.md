@@ -58,7 +58,7 @@ We will use SDKMAN to handle multiple java versions.
 
 - If we are behind a corporate firewall, we can import the security using keytool.
 
-   - ```keytool -import -alias zScaler -keystore  "/home/rahul/.sdkman/candidates/java/17.0.9-amzn" -file pemfile.cer```
+   - ```keytool -import -alias zScaler -keystore  "/home/rahul/.sdkman/candidates/java/17.0.9-amzn/lib/security/cacerts" -file pemfile.cer```
     
 
 ## Install Maven
